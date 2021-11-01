@@ -7,7 +7,7 @@ h3{
     color: slateblue;
    }
 h1{
-    font-weight: bolder;
+    font-weight: 900;
 }
 p, ul{
     color: gray;
@@ -15,4 +15,23 @@ p, ul{
 img{
     height: auto;
     width: 500px;
+}
+.landing-title {
+    background-color: rgb(185, 223, 224);
+    opacity: 50;
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+}
+h2{
+    background-color: rgb(185, 223, 224);
+    padding: 5px;
+    border-radius: 5px;
+    width: 500px;
+    text-align: center;   
+}
+h2:hover{
+    background-color: rgb(25, 168, 168);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
